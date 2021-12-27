@@ -14,7 +14,7 @@ class Game {
     });
   }
 
-  // TA
+  // AM
   start() {
     player = new Player();
     playerCount = player.getCount();
@@ -40,7 +40,7 @@ class Game {
     form.titleImg.class("gameTitleAfterEffect");
   }
 
-  //SA
+  //AA
   play() {
     this.handleElements();
 
@@ -49,17 +49,17 @@ class Game {
    /*  if (allPlayers !== undefined) {
       image(track, 0, -height * 5, width, height * 6);
 
-      //index of the array
+      // Indice del arreglo
       var index = 0;
       for (var plr in allPlayers) {
-        //use data form the database to display the cars in x and y direction
+        // Usa los datos de la base de datos para mostrar los carros en las direcciones x e y
         var x = allPlayers[plr].positionX;
         var y = height - allPlayers[plr].positionY;
 
         cars[index].position.x = x;
         cars[index].position.y = y;
 
-        //add 1 to the index for every loop
+        // Agrega 1 al indice por cada ciclo
         index = index + 1;
       }
 
